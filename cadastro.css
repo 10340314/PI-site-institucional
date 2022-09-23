@@ -3,7 +3,7 @@
     color: palevioletred;
 
     width: 400px;
-    height: 300px;
+    height: 450px;
 
     display: flex;
     flex-direction: column;
@@ -12,41 +12,41 @@
 
     border-radius: 6px;
 }
- .caixa_formulario h1 {
-    font-size: 30px;
- }
 
- .formulario {
+.caixa_formulario h1 {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.formulario {
+    width: 200px;
     display: flex;
     flex-direction: column;
-    width: 200px;
- }
+}
 
- .formulario input {    
+.formulario input { 
     padding: 10px 15px;
-
-    border: 2px solid rgb(83, 137, 193);
+    text-align: center;
+    border: solid 2px rgb(83, 137, 193);
     border-radius: 10px;
     outline: none;
 
-    text-align: center;
- }
-
- .formulario span {
     font-size: 20px;
- }
+}
+
+.formulario span {
+    font-size: 15px;
+}
 
 .formulario button {
     background: #e1374e;
     color: #fff;
-  
+
     margin-top: 10px;
     width: 120px;
     padding: 10px 15px;
 
-    border: none;
-    border-radius: 10px;
-    outline: none;
-
+    border-radius: 8px;
+    
     align-self: center;
- }
+}
